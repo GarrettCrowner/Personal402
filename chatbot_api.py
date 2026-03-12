@@ -20,6 +20,9 @@ import threading
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
+from dotenv import load_dotenv
+load_dotenv()  # Loads .env file into environment variables
+
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request
