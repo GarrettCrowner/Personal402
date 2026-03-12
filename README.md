@@ -3,6 +3,7 @@
 ## Every time you want to run Rammy, open 3 terminal tabs in this order:
 
 ---
+#start with Git Clone
 
 ### Tab 1 — Python Backend
 ```bash
