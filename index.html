@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ask Rammy</title>
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
-
     <!-- Icons -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styling_Rev1.css">
+    <link rel="stylesheet" href="styling.css">
 </head>
 <body>
    <!-- Main Chat Container -->
     <div id="chat-container">
-
         <!-- Header Section -->
         <header id="chat-header">
             <button id="chat-close-btn">
@@ -29,15 +25,11 @@
                 <ion-icon name="ellipsis-vertical-circle-outline"></ion-icon>
             </button>
         </header>
-
         <!-- Message Display Area -->
         <main id="message-container">
-            <!-- Messages will be appended here -->
-            <div id="message-container">
-            </div>
+            <!-- Messages will be appended here by chat.js -->
         </main>
         
-
         <!-- Input Area -->
         <footer id="chat-footer">
             <form id="chat-user-form">
@@ -48,6 +40,6 @@
             </form>
         </footer>
     </div>
-    <script src="chat.js"></script> <!-- Linking js -->
+    <script src="chat.js"></script>
 </body>
 </html>
