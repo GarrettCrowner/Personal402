@@ -58,7 +58,7 @@ Wait until you see `Rammy Node.js API running on http://localhost:3000` before o
 open ~/personal402/index.html
 ```
 Or right-click `index.html` in VS Code → **Open with Live Server**
-
+//You will probably have to install the Live Service extension on VS code, then have to right click in the "text editor" part of the file 
 ---
 
 ## Verify Everything is Connected
